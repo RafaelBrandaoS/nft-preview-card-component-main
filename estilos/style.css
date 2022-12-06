@@ -1,0 +1,83 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+    color: #fff;
+}
+
+html {
+    width: 100vw;
+    height: 100vh;
+}
+
+body {
+    background:  #0d192b;
+}
+
+main {
+    background: #14253d;
+    width: 375px;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+main > img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+main > h1 {
+    color: #fff;
+    font-weight: 600;
+}
+
+main > p {
+    color: #a1a1a1;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+div.dados {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #a1a1a1;
+    padding: 10px;
+}
+
+div.dados > div.valor {
+    color:  #00fff7;
+}
+
+div.usu {
+    display: flex;
+    align-items: flex-start;
+    align-items: center;
+    gap: 20px;
+}
+
+div.usu > p {
+    color: #a1a1a1;
+}
+
+div.usu > strong {
+    font-weight: 600;
+}
+
+div.usu > img {
+    width: 50px;
+    border: 1px solid white;
+    border-radius: 100%;
+}
